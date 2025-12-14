@@ -1,0 +1,14 @@
+# Terraform (NEVER COMMIT THESE)
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+*.auto.tfvars
+
+# Keep provider lock file
+!.terraform.lock.hcl
+
+# IntelliJ
+.idea/
+*.iml
+
